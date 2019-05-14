@@ -7,46 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7a64e17-7c32-4edf-b535-893aa30126f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/api/LeaderApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/LeaderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/LeaderProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/service/LeaderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/LeaderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___nefu___snow_1_0_SNAPSHOT_war__exploded_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___nefu___snow_1_0_SNAPSHOT_war__exploded_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageComment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/api/LoginApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/api/LoginApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/api/UserApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/api/UserApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/CommunityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/CommunityMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/UserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/mapper/provider/UserProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/Work.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/core/model/Work.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/nefu/snow/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/nefu/snow/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snow.log" beforeDir="false" afterPath="$PROJECT_DIR$/snow.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/api/LoginApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/api/LoginApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/api/UserApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/CommunityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/CommunityMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/UserProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/UserProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Work.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -95,11 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/api/UserApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+            <state relative-caret-position="196">
+              <caret line="127" column="17" lean-forward="true" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,50 +92,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="323" column="24" selection-start-line="323" selection-start-column="24" selection-end-line="323" selection-end-column="24" />
+            <state relative-caret-position="-66">
+              <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/CommunityMapper.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/LeaderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/SnowcleanAqpplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="282">
+              <caret line="77" column="35" lean-forward="true" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
               <folding>
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/ServletInitializer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageComment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageArticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/UserProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -173,28 +177,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/CommunityProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/work.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Work.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Tool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/api/LoginApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/UserProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/CommunityMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/api/UserApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Team.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/service/LeaderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/LeaderProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/LeaderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/LeaderMapper.java" />
         <option value="$PROJECT_DIR$/../../hybs/snowclean/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/api/LeaderApi.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/UserProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/LeaderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/CommunityMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageArticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Work.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/api/UserApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nefu/snow/api/LoginApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/UserServiceImpl.java" />
       </list>
     </option>
@@ -205,7 +212,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="465" />
     <option name="y" value="170" />
     <option name="width" value="1085" />
@@ -219,8 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,6 +322,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,7 +333,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557718673603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557839529147" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hybs/snowclean/README.md" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -378,17 +385,18 @@
       <workItem from="1557756688562" duration="11066000" />
       <workItem from="1557793420541" duration="1701000" />
       <workItem from="1557795497429" duration="1086000" />
+      <workItem from="1557822085215" duration="10711000" />
+      <workItem from="1557842062196" duration="1566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84247000" />
+    <option name="totallyTimeSpent" value="96526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25201073" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -398,7 +406,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3526912" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5410765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -430,34 +438,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/gradle/gradleReposity/caches/modules-2/files-2.1/com.github.pagehelper/pagehelper/5.1.3/beb1ef86c9a2aa15b5faa5e389c56622d9415f40/pagehelper-5.1.3-sources.jar!/com/github/pagehelper/PageSerializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/gradle/gradleReposity/caches/modules-2/files-2.1/com.github.pagehelper/pagehelper/5.1.3/beb1ef86c9a2aa15b5faa5e389c56622d9415f40/pagehelper-5.1.3-sources.jar!/com/github/pagehelper/PageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Work.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageEntity.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -469,20 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="402" lean-forward="true" selection-start-line="402" selection-end-line="402" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Honor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -500,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/common/ErrorMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/common/util/TokenUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -518,37 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-234">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/api/LoginApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/UserProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -569,13 +498,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -603,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/api/LeaderApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -631,13 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/ServletInitializer.java" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -652,9 +558,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/LeaderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
+        <state relative-caret-position="636">
           <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -664,25 +577,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/LeaderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2002">
-          <caret line="99" column="45" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
+        <state relative-caret-position="226">
+          <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/common/ErrorMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/LeaderServiceImpl.java">
+    <entry file="jar://D:/gradle/gradleReposity/caches/modules-2/files-2.1/com.github.pagehelper/pagehelper/5.1.3/beb1ef86c9a2aa15b5faa5e389c56622d9415f40/pagehelper-5.1.3-sources.jar!/com/github/pagehelper/PageSerializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        <state relative-caret-position="194">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/gradle/gradleReposity/caches/modules-2/files-2.1/com.github.pagehelper/pagehelper/5.1.3/beb1ef86c9a2aa15b5faa5e389c56622d9415f40/pagehelper-5.1.3-sources.jar!/com/github/pagehelper/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/gradle/gradleReposity/caches/modules-2/files-2.1/com.github.pagehelper/pagehelper/5.1.3/beb1ef86c9a2aa15b5faa5e389c56622d9415f40/pagehelper-5.1.3-sources.jar!/com/github/pagehelper/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/gradle/gradleReposity/caches/modules-2/files-2.1/com.github.pagehelper/pagehelper/5.1.3/beb1ef86c9a2aa15b5faa5e389c56622d9415f40/pagehelper-5.1.3-sources.jar!/com/github/pagehelper/page/PageMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="133" column="38" lean-forward="true" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2080#2081#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+            <element signature="e#2226#2227#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2335#2336#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+            <element signature="e#2432#2433#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
+            <element signature="e#2497#2498#0" expanded="true" />
+            <element signature="e#2544#2545#0" expanded="true" />
+            <element signature="e#2586#2587#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#2653#2654#0" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+            <element signature="e#2746#2747#0" expanded="true" />
+            <element signature="e#2778#2779#0" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2878#2879#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
+            <element signature="e#2935#2936#0" expanded="true" />
+            <element signature="e#2974#2975#0" expanded="true" />
+            <element signature="e#3008#3009#0" expanded="true" />
+            <element signature="e#3035#3036#0" expanded="true" />
+            <element signature="e#3061#3062#0" expanded="true" />
+            <element signature="e#3096#3097#0" expanded="true" />
+            <element signature="e#3126#3127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/gradle/gradleReposity/caches/modules-2/files-2.1/com.github.pagehelper/pagehelper/5.1.3/beb1ef86c9a2aa15b5faa5e389c56622d9415f40/pagehelper-5.1.3-sources.jar!/com/github/pagehelper/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2515#2516#0" expanded="true" />
+            <element signature="e#2544#2545#0" expanded="true" />
+            <element signature="e#6712#6713#0" expanded="true" />
+            <element signature="e#6740#6741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -691,32 +714,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/CommunityMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="128">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Comment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Honor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/api/LeaderApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4532">
+          <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="323" column="24" selection-start-line="323" selection-start-column="24" selection-end-line="323" selection-end-column="24" />
+        <state relative-caret-position="836">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/model/PageArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/core/mapper/provider/UserProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/api/UserApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+        <state relative-caret-position="196">
+          <caret line="127" column="17" lean-forward="true" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/api/LoginApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nefu/snow/service/impl/LeaderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="77" column="35" lean-forward="true" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

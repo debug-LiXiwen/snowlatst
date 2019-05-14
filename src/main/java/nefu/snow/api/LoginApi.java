@@ -36,7 +36,7 @@ public class LoginApi {
         logger.info("POST login : " + JsonUtil.getJsonString(user));
 
         Map<String, Object> map1 = new HashMap<String,Object>();
-        if (null == user.getUserId() && 1 > user.getUserId().length() && null == user.getUserPassword() ) {
+        if (null == user.getUserId() && 1 > user.getUserId().length() && null == user.getUserPassword() && null != user.getUserName()) {
             Map<String, Object> map = new HashMap<String,Object>();
             map.put("code","1");
             map.put("message",ErrorMessage.PARAMATER_ERROR);
@@ -67,11 +67,11 @@ public class LoginApi {
                 null ==user.getUserPassword() ){
             return new RestData(1, ErrorMessage.PARAMATER_ERROR);
         }
-        try{
-            int a = userService.signIn(user);
+       int a = userService.signIn(user);
+        if(1 != a) {
             return new RestData(a);
-        }catch (SnowException e){
-            return new RestData(1,e.getMessage());
+        }else {
+            return new RestData(1, "身份证号不能重复");
         }
     }
 

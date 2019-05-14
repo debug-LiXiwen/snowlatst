@@ -23,6 +23,9 @@ public class UserProvider {
                 if (null != user.getUserId()) {
                     WHERE("user_id=#{userId}");
                 }
+                if (null != user.getUserName()) {
+                    WHERE("user_name=#{userName}");
+                }
                 if (null != user.getUserPassword()) {
                     WHERE("user_password=#{userPassword}");
                 }

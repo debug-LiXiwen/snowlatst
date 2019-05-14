@@ -31,6 +31,9 @@ public interface UserMapper {
     @Select("select count(user_id) from user")
     int selectTotalNum();
 
+    @Update("update user set user_name=#{userName},user_sex=#{sex},user_password=#{userPassword},user_workage=#{userWorkAge},user_address=#{userAddress},user_token=#{userToken} where user_id=#{userId}")
+    int updateUser(User user);
+
     /**
      * 设置token
      *

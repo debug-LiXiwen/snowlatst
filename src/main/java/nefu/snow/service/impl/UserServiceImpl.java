@@ -58,9 +58,10 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public int signIn(User user) throws SnowException {
-        int rtv ;
-        if(0 == userMapper.selectNum(user) ) {
+    public int signIn(User user) {
+        int rtv =0;
+        int a = userMapper.selectNum(user);
+        if(0 == a ) {
             user.setUserToken(TokenUtil.getToken());
             user.setUserId(user.getUserId().substring(user.getUserId().length() - 6, user.getUserId().length()));
             if (0 < userMapper.insertUser(user)) {
@@ -68,25 +69,33 @@ public class UserServiceImpl implements UserService {
             } else {
                 rtv = 1;
             }
-        } else {
-            throw new SnowException("用户已登记过");
+        } else if(1 == a){
+            if (0 < userMapper.updateUser(user)) {
+                rtv = 0;
+            } else {
+                rtv = 1;
+            }
+        }else{
+            rtv = 1;
         }
         return rtv;
     }
 
-    public Map<String,Object> selectHonorList() {
+    public Map<String,Object> selectHonorList(int page) {
         Map<String,Object> rtv = new LinkedHashMap<>();
         Map<String,Object> map = new LinkedHashMap<>();
         PageInfo<Honor> pageInfo = null;
-        PageHelper.startPage(1, 5);
+
+        PageHelper.startPage(page, 5);
         List<Honor> honors = userMapper.selectHonorList();
+
         logger.info("honors : "+JsonUtil.getJsonString(honors));
         if(null != honors && 0 != honors.size()) {
             pageInfo = new PageInfo<>(honors);
         }
         map.put("totalSize",pageInfo.getTotal());
         map.put("totalPage",pageInfo.getPages());
-        map.put("eachPage",pageInfo.getPageSize());
+        map.put("eachPage",5);
         map.put("nowPage",pageInfo.getPageNum());
 
         rtv.put("honorList",honors);
@@ -190,29 +199,24 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Map<String, Object> selectSnowList() throws SnowException {
+    public Map<String, Object> selectSnowList(int page) throws SnowException {
 
 
         Map<String,Object> rtv = null;
         Map<String,Object> map = null;
         Map<String,Object> data = null;
-        PageInfo<Map<String,Object>> pageInfo = null;
-        PageHelper.startPage(1, 5);
-        List<Article> articles = communityMapper.selectSnowList();
-        List<Map<String,Object>> newArticles = new ArrayList<>();
+        PageInfo<PageArticle> pageInfo = null;
+
+        PageHelper.startPage(page, 5);
+        List<PageArticle> articles = communityMapper.selectSnowList();
+
         logger.info("articles : "+JsonUtil.getJsonString(articles));
+
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         if(null != articles && 0 != articles.size()) {
-            for(Article article : articles){
-                Map<String,Object> map1 = new LinkedHashMap<>();
-                map1.put("snowId",article.getSnowId());
-                map1.put("title",article.getTitle());
-                map1.put("content",article.getContent());
-                map1.put("time",sdf.format(article.getTime()));
-                map1.put("author",article.getAuthor());
-                newArticles.add(map1);
-            }
-            pageInfo = new PageInfo<>(newArticles);
+
+            pageInfo = new PageInfo<>(articles);
+
         }
 
         map = new LinkedHashMap<>();
@@ -223,7 +227,7 @@ public class UserServiceImpl implements UserService {
 
         data = new LinkedHashMap<>();
 
-        data.put("snowList",newArticles);
+        data.put("snowList",articles);
         data.put("page",map);
 
         rtv = new LinkedHashMap<>();
@@ -239,27 +243,25 @@ public class UserServiceImpl implements UserService {
         Map<String,Object> rtv = null;
         Map<String,Object> data = null;
         Map<String,Object> map = new LinkedHashMap<>();
-        PageInfo<Map<String,Object>> pageInfo = null;
+        PageInfo<PageComment> pageInfo = null;
 
         Comment comment = new Comment();
         comment.setSnowId(snowId);
 
         PageHelper.startPage(page,5);
+        List<PageComment> comments = communityMapper.selectCommentList(comment);
+       // List<Map<String,Object>> newComments = new ArrayList<>();
 
-        List<Comment> comments = communityMapper.selectCommentList(comment);
-        List<Map<String,Object>> newComments = new ArrayList<>();
+
+       // PageBean<Map<String,Object>> pageBean = new PageBean<>(page,5,comments.size());
+
+
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         if(null != comments && 0 != comments.size()){
-            for(Comment comment1 : comments){
-                Map<String,Object> map1 = new LinkedHashMap<>();
-                map1.put("commentId",comment1.getCommentId());
-                map1.put("content",comment1.getContent());
-                map1.put("time",sdf.format(comment1.getCommentTime()));
-                map1.put("author",comment1.getCommentAuthor());
-                newComments.add(map1);
-            }
-            pageInfo = new PageInfo<>(newComments);
+
+            pageInfo = new PageInfo<>(comments);
+
         }
 
         data = new LinkedHashMap<>();
@@ -268,7 +270,7 @@ public class UserServiceImpl implements UserService {
         data.put("eachPage",pageInfo.getPageSize());
         data.put("nowPage",pageInfo.getPageNum());
 
-        map.put("commentList",newComments);
+        map.put("commentList",comments);
         map.put("page",data);
         rtv = new LinkedHashMap<>();
         rtv.put("code",0);
@@ -304,12 +306,16 @@ public class UserServiceImpl implements UserService {
     public Map<String, Object> selectWork() throws SnowException {
         List<User> users = userMapper.selectOrder();
         List<Work> works = new ArrayList<>();
+
         List<Work> data = new ArrayList<>();
+
         List<Map<String,Object>> newdata = new ArrayList<>();
+
         Map<String,Object> rtv = null;
         Map<String,Object> map = null;
         Map<String,Object> map1 = new LinkedHashMap<>();
         Map<String,Object> map2 = new LinkedHashMap<>();
+
         if(null != users){
             for(int i=1 ; i<=0.3*users.size();i++){
                     Work work = new Work();
@@ -324,14 +330,17 @@ public class UserServiceImpl implements UserService {
             boolean b = userMapper.insertNewWork(works);
             PageHelper.startPage(1,5);
             data = userMapper.selectNewWork();
+
+            /*
             for(Work work : data){
                 map2.put("userId",work.getUserId());
                 map2.put("userName",work.getUserName());
                 map2.put("score",work.getScore());
                 map2.put("reward",work.getReward());
                 newdata.add(map2);
-            }
-            PageInfo<Map<String,Object>> pageInfo =new PageInfo<>(newdata);
+            }*/
+
+            PageInfo<Work> pageInfo =new PageInfo<>(data);
 
             map = new LinkedHashMap<>();
             map.put("totalSize",pageInfo.getTotal());
@@ -339,7 +348,7 @@ public class UserServiceImpl implements UserService {
             map.put("eachPage",pageInfo.getPageSize());
             map.put("nowPage",pageInfo.getPageNum());
 
-            map1.put("workList",newdata);
+            map1.put("workList",data);
             map1.put("page",map);
 
             rtv = new LinkedHashMap<>();

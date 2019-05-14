@@ -28,9 +28,9 @@ public interface UserService {
      * @return
      * @throws SnowException
      */
-    int signIn(User user) throws SnowException;
+    int signIn(User user) ;
 
-    Map<String,Object> selectHonorList() throws SnowException;
+    Map<String,Object> selectHonorList(int page) throws SnowException;
 
     Map<String,Object> voteState(String userId) ;
 
@@ -42,7 +42,7 @@ public interface UserService {
 
     Map<String,Object> newComment(Comment comment) throws SnowException;
 
-    Map<String,Object> selectSnowList() throws SnowException;
+    Map<String,Object> selectSnowList(int page) throws SnowException;
 
     Map<String,Object> selectSnowCommentList(Integer snowId,int page) throws SnowException;
 

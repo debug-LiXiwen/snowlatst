@@ -33,9 +33,9 @@ public class UserApi {
 
 
     @RequestMapping(value = "/snow/honor" , method = RequestMethod.GET)
-    public RestData selectHonorList(){
+    public RestData selectHonorList(@RequestParam(value = "page") int page){
         try{
-            Map<String,Object> data = userService.selectHonorList();
+            Map<String,Object> data = userService.selectHonorList(page);
             return new RestData(data);
         }catch (SnowException e){
             return new RestData(1,e.getMessage());
@@ -83,12 +83,12 @@ public class UserApi {
 
     @RequestMapping(value = "/snow/snowList" , method = RequestMethod.GET)
     @ResponseBody
-    public Map<String, Object> selectSnowList(){
+    public Map<String, Object> selectSnowList(@RequestParam(value = "page") int page){
         logger.info("GET snowList : ");
 
         Map<String, Object> rtv = null;
         try {
-            rtv = userService.selectSnowList();
+            rtv = userService.selectSnowList(page);
         }catch (SnowException e){
             e.printStackTrace();
         }

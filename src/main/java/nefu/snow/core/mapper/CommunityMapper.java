@@ -1,9 +1,7 @@
 package nefu.snow.core.mapper;
 
 import nefu.snow.core.mapper.provider.CommunityProvider;
-import nefu.snow.core.model.Article;
-import nefu.snow.core.model.Comment;
-import nefu.snow.core.model.User;
+import nefu.snow.core.model.*;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
@@ -30,13 +28,13 @@ public interface CommunityMapper {
     int insertComment(Comment comment);
 
     @Select("SELECT user_id AS userId,snow_id AS snowId,title,content,time,author from article ORDER BY time DESC")
-    List<Article> selectSnowList();
+    List<PageArticle> selectSnowList();
 
     @SelectProvider(type = CommunityProvider.class , method = "selectByCondition")
     Article selectSnowById(Article article);
 
-    @Select("SELECT snow_id AS snowId,comment_id AS commentId , user_id AS userId , comment_content AS content,comment_time AS commentTime,comment_author AS commentAuthor from comment WHERE snow_id=#{snowId}")
-    List<Comment> selectCommentList(Comment comment);
+    @Select("SELECT snow_id AS snowId,comment_id AS commentId , comment_content AS content,comment_time AS time,comment_author AS author from comment WHERE snow_id=#{snowId}")
+    List<PageComment> selectCommentList(Comment comment);
 
 
 

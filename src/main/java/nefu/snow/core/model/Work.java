@@ -7,9 +7,8 @@ import lombok.Data;
  **/
 @Data
 public class Work {
-    private Integer systemId;
     private String userId;
     private String userName;
-    private String reward;
     private Integer score;
+    private String reward;
 }
